@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <style>
+       
+
+        div{
+            width: 100px;
+            height: 100px;
+            padding: 20px;
+            margin: 20px;
+            display: inline-block;
+            /*display: inline; will make the div to act like span which is inline*/
+            opacity: 0.8; /* will darken or lighten the content, based on the values from 0 to 1 */
+        }
+
+        #box2{
+            /*display: none;  will delete the box2, by this arrangement may change*/
+            visibility: hidden; /* will hide box2, by this arrangement will not change*/
+        }
+    </style>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display</title>
+</head>
+<body>
+    <div>
+        <h1>h1 inside div, where div is a Block Element</h1>
+    </div>
+    <div>
+        Div is a block element is applied with style display as inline-block
+    </div>
+    <sapn>Span is a inline Element</sapn>
+
+    <br>
+    <br>
+    <div style="background-color: rgb(96, 7, 122);">Box1</div>
+
+    <div id="box2" style="background-color: rgb(243, 158, 47);">Box2</div>
+
+    <div style="background-color: aqua;">Box3</div>
+</body>
+</html>
